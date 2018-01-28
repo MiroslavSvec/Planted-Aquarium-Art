@@ -1,0 +1,305 @@
+/* General */
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	background-color: #e6e6e6;
+}
+#main { /* !!! */
+	padding: 0;
+}
+a {
+    text-decoration: none;
+    opacity: 0.75;
+    color: #ffffff;
+}
+a:hover {
+opacity: 1;
+}
+a:btn {
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    opacity: 1;
+}
+section {
+	height: auto;
+}
+
+/* Header / Nav */
+
+#header {
+	position: fixed;
+	width: auto;
+	margin: 0 auto;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0;	
+}
+.transparent-header {
+	background-color: transparent;
+}
+.dark-header {
+	background-color: rgba(0,0,0,0.596078);
+}
+#header nav {
+	background-color: transparent;
+	border: 0;	
+	margin: 0;
+}
+.navbar .navbar-brand {
+	color: rgba(255, 255, 255, 0.8)	
+}
+.fa-pagelines {
+	color: #5cb85c;
+}
+.navbar-default .navbar-toggle {
+	border: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 5px;
+}
+.navbar-default .navbar-nav > li > a {
+	text-align: right;
+	background: linear-gradient(to right, transparent 60%,rgba(0,0,0,0.5) 100%);
+	-webkit-background: linear-gradient(to right, transparent 60%,rgba(0,0,0,0.5) 100%);
+	-moz-background: linear-gradient(to right, transparent 60%,rgba(0,0,0,0.5) 100%);
+	color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* Slide Show */
+
+#slide-show {
+	height: 100vh;
+	padding: 0;
+	background: url('../files/1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.3)
+}
+.title {
+	position: relative;
+	top: 25%;
+	padding-left: 25px;
+    opacity: 0;
+	margin-top: 100px;
+    animation: 1s slide 1s forwards;
+}
+@keyframes slide {
+    100% {
+        opacity: 1;
+        margin:0 auto;
+
+    }
+}
+.title h1,
+.title p,
+.title button {
+	margin-bottom: 30px;
+}
+.title h1 {
+	color: rgba(255, 255, 255, 0.8);
+	font-family: 'Tangerine', serif;
+	font-size: 3em;
+	font-weight: 500;
+	text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.7);
+}
+.title p {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+/* Landscape SmartPhones */
+
+@media (min-width: 640px) and (orientation: landscape) {
+  .title {
+	  padding-left: 120px;
+  }
+}
+
+
+/* sm Screens */
+
+@media (min-width: 768px) {
+  .title {
+	  padding-left: 120px;
+  }
+  .title h1 {
+	  font-size: 5em;
+  }
+  .title p {
+	  font-size: 1.5em;
+  }  
+  .navbar-default .navbar-nav > li > a {
+	  background: transparent;
+  }
+}
+
+/* lg Screens */
+
+@media (min-width: 968px) {
+  .title h1 {
+	  font-size: 7em;
+  }
+  .title p {
+	  font-size: 2em;
+  }
+}
+
+/* xl Screens */
+
+@media (min-width: 1400px) {
+  #slide-show {
+	display: flex;
+	justify-content: center;
+  }
+  .title {
+	padding-left: 0px;
+	padding-right: 200px;
+	  
+  }
+  .title h1 {
+	font-size: 7em;
+  }
+  .title p {
+	font-size: 2em;
+  }
+  .navbar-default .navbar-brand > a,
+  .navbar-default .navbar-nav > li > a {
+	transition: color .5s ease-in-out, color .5s ease-in-out;
+  }
+  .navbar-default .navbar-nav > li > a:hover, 
+  .navbar-default .navbar-nav > li > a:focus {
+	color: rgba(255, 255, 255, 0.6);
+	background-color: transparent;
+  }
+  .navbar-default .navbar-brand:hover, 
+  .navbar-default .navbar-brand:focus {
+	 color: rgba(255, 255, 255, 0.6); 
+  }
+}
+
+ /* Moto Section */
+
+#our-moto {
+	height: auto;	
+}
+#our-moto header {
+	padding: 70px 25px 0 25px;
+}
+#our-moto .row h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.moto {
+	font-family: Georgia,serif;
+    font-style: italic;
+	font-weight: 400;
+	text-transform: none;
+}
+.about  {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+	opacity: 1;
+	color: #ffffff;
+}
+
+
+
+/* Contact Form */
+
+.modal-content {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.help-block {
+	color: #000000;
+}
+
+
+/* */
+
+.about {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Not in use *
+
+div {
+	border: 1px solid black;
+}
+
+/*
+
+
+.navbar .navbar-brand {
+	color: white;
+	font-weight: 500;
+}
+
+.nav hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    width: 250px;
+    margin: auto;
+}
+.sales-message {
+	color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 35px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+	border-radius: 0;
+	width: 100%;	
+}
+h1,
+h2,
+h3 {
+	font-family: "Norican", cursive;
+	font-size: 2em;
+	word-spacing: 0.1em;
+	opacity: 0.75;
+}
+body {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+	  }
+	  .contact-us {
+	border-radius: 25px;
+}
+
+<hr class="hidden-sm hidden-md hidden-lg">
