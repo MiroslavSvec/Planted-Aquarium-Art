@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 	<!-- CSS -->
 	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/screns.css">
 
 	<!-- Scripts -->
 
@@ -104,48 +105,71 @@
 						</h2>
 					</div>
 				</header>
-				<hr>
+
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-							<div class="about-us pokus">
-								<a class="about" href="#about">
+						<div class="about-us icon-wrapper col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<a href="">
+								<div id="our-work">
+									<div class="icon-border">
+										<i id="our-work-icon" class="about-us-background fab fa-pagelines fa-5x"></i>
+									</div>
+									<h3>Our Work</h3>
+									<br>
+									<em>
+										<p>What we made so far</p>
+									</em>
+								</div>
+							</a>
+						</div>
+						<div class="about-us icon-wrapper col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<a href="">
+								<div id="our-services">
+									<div class="icon-border">
+										<i id="our-services-icon" class="about-us-background fab far fa-star fa-5x"></i>
+									</div>
+									<h3>Our Servises</h3>
+									<br>
+									<em>
+										<p>What we can do for you</p>
+									</em>
+								</div>
+							</a>
+						</div>
+						<div class="about-us icon-wrapper col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<a href="">
+								<div id="about-us">
+									<div class="about-us-background icon-border">
+										<i id="about-us-icon" class="about-us-background far fa-thumbs-up fa-5x"></i>
+									</div>
 									<h3>About Us</h3>
-									<i class="fas fa-suitcase fa-10x"></i>
-									<p>Meet our crew</p>
+									<br>
+									<em>
+										<p>Meet our crew</p>
+									</em>
 								</a>
 							</div>
 						</div>
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-							<div class="about-us pokus">
-								<a class="about" href="#about">
-									<h3>About Us</h3>
-									<i class="fas fa-suitcase fa-10x"></i>
-									<p>Meet our crew</p>
-								</a>
-							</div>
+						<div class="about-us icon-wrapper col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<a href="">
+								<div id="contact-us">
+									<div class="icon-border">
+										<i id="contact-us-icon" class="about-us-background far fa-envelope fa-5x"></i>
+									</div>
+									<h3>Contact Us</h3>
+									<br>
+									<em>
+										<p>Let's get in touch</p>
+									</em>
+								</div>
+							</a>
 						</div>
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-							<div class="about-us pokus">
-								<a class="about" href="#about">
-									<h3>About Us</h3>
-									<i class="fas fa-suitcase fa-10x"></i>
-									<p>Meet our crew</p>
-								</a>
-							</div>
-						</div>
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-							<div class="about-us pokus">
-								<a class="about" href="#about">
-									<h3>About Us</h3>
-									<i class="fas fa-suitcase fa-10x"></i>
-									<p>Meet our crew</p>
-								</a>
-							</div>
-						</div>
+					</div>
+				</div>
 
 
-						<p> </p>
+
+				<p> </p>
 
 
 
@@ -225,6 +249,40 @@
 			$(".transparent-header").removeClass("dark-header");
 		}
 	});
+</script>
+<script>
+	$("#our-work").hover(
+		function () {
+			$("#our-work-icon").addClass('about-us-background-dark');
+		},
+		function () {
+			$("#our-work-icon").removeClass('about-us-background-dark');
+		}
+	);
+	$("#our-services").hover(
+		function () {
+			$("#our-services-icon").addClass('about-us-background-dark');
+		},
+		function () {
+			$("#our-services-icon").removeClass('about-us-background-dark');
+		}
+	);
+	$("#about-us").hover(
+		function () {
+			$("#about-us-icon").addClass('about-us-background-dark');
+		},
+		function () {
+			$("#about-us-icon").removeClass('about-us-background-dark');
+		}
+	);
+	$("#contact-us").hover(
+		function () {
+			$("#contact-us-icon").addClass('about-us-background-dark');
+		},
+		function () {
+			$("#contact-us-icon").removeClass('about-us-background-dark');
+		}
+	);
 </script>
 
 </html>
