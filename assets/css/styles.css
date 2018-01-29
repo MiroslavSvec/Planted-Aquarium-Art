@@ -30,6 +30,7 @@ a:btn {
 }
 section {
 	height: auto;
+	padding-top: 50px;
 }
 
 /* Header / Nav */
@@ -132,9 +133,10 @@ section {
 
 #our-moto {
 	height: auto;	
+	padding-bottom: 50px;
 }
 #our-moto header {
-	padding: 70px 25px 0 25px;
+	padding: 0px 25px 50px 25px;
 }
 #our-moto .row h2 {
 	text-transform: uppercase;
@@ -170,6 +172,9 @@ a:-webkit-any-link p {
 	height: 110px;
 	margin: 0 auto;
 }
+.about-us {
+	
+}
 .about-us-background {
 	color: #ffffff;
 	height: 110px;
@@ -187,6 +192,21 @@ a:-webkit-any-link p {
 	100% {
 		color: #a5a5a5;
 	}
+}
+
+/* Our Work Section */
+
+#work {
+	background-color: #dfdfdf;
+	height: 700px;
+}
+.small-picture,
+.large-picture {
+	background-color: #000000;
+	height: 50vh;
+}
+.large-picture {
+	background-color: #ffffff;
 }
 
 
