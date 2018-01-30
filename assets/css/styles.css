@@ -35,6 +35,12 @@ section {
 h2 {
 	font-weight: 700;
 }
+.h2-text {
+	font-family: Georgia,serif;
+    font-style: italic;
+	font-weight: 400;
+	text-transform: none;
+}
 h3 {
 	margin-top: 0;
 }
@@ -159,12 +165,6 @@ h4 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
-.moto {
-	font-family: Georgia,serif;
-    font-style: italic;
-	font-weight: 400;
-	text-transform: none;
-}
 #about {
 	margin-bottom: 50px;
 }
@@ -235,8 +235,41 @@ a:-webkit-any-link p {
 	color: #b4b4b4;
 }
 
+/* Get In Touch Section */
 
+#get-in-touch {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: url('../files/large/7.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
 
+#get-in-touch h2 {
+	margin-bottom: 30px;
+	color: #ffffff;
+	text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.7);
+}
+#get-in-touch a {
+	background-color: transparent;
+	border-color: #a5a5a5;
+	border-width: 2px;
+	color: #ffffff;
+	font-weight: 600;
+}
+#get-in-touch a:hover {
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+}
+
+/* Services Section */
+
+#services {
+	background-color: #000000;
+	height: 700px;
+}
 
 
 
