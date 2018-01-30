@@ -4,6 +4,9 @@
   .title {
 	  padding-left: 120px;
   }
+  .section-hr {
+	width: 3%;
+  }
 }
 
 
@@ -22,6 +25,10 @@
   .navbar-default .navbar-nav > li > a {
 	  background: transparent;
   }
+  .section-hr {
+	width: 3%;
+	margin-bottom: 100px;
+  }
 }
 
 /* lg Screens */
@@ -32,6 +39,10 @@
   }
   .title p {
 	  font-size: 2em;
+  }
+  .section-hr {
+	width: 3%;
+	margin-bottom: 100px;
   }
 }
 
@@ -65,5 +76,9 @@
   .navbar-default .navbar-brand:hover, 
   .navbar-default .navbar-brand:focus {
 	 color: rgba(255, 255, 255, 0.6); 
+  }
+  .section-hr {
+	width: 3%;
+	margin-bottom: 100px;
   }
 }

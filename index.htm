@@ -53,7 +53,7 @@
 							<a href="#about">About</a>
 						</li>
 						<li>
-							<a href="#">Work</a>
+							<a href="#work">Work</a>
 						</li>
 						<li>
 							<a href="#">Services</a>
@@ -82,7 +82,7 @@
 			<div class="title">
 				<h1>Planted Aquarium Art</h1>
 				<p>Advice | Setting up | Taking care of </p>
-				<button type="button" class="contact-us btn btn-lg btn-success" data-toggle='modal' data-target='#signUpModal'>Create account!</button>
+				<button type="button" class="btn btn-lg btn-success" data-toggle='modal' data-target='#signUpModal'>Create account!</button>
 			</div>
 		</section>
 
@@ -108,13 +108,14 @@
 					</div>
 				</header>
 
-				<div class="container-fluid">
+				<div class="container">
 					<div class="row">
-						<div class="about-us icon-wrapper col-xs-6 col-sm-6 col-md-3 col-lg-3">
-							<a href="">
+						<div class=" icon-wrapper visible-xl hidden-sm hidden-xs col-md-2 col-lg-2"></div>
+						<div class=" icon-wrapper col-xs-6 col-sm-6 col-md-2 col-lg-2">
+							<a href="#work">
 								<div id="our-work">
 									<div class="icon-border">
-										<i id="our-work-icon" class="about-us-background fab fa-pagelines fa-5x"></i>
+										<i id="our-work-icon" class="about-us-background fab fa-pagelines fa-3x"></i>
 									</div>
 									<h3>Our Work</h3>
 									<br>
@@ -124,13 +125,13 @@
 								</div>
 							</a>
 						</div>
-						<div class="about-us icon-wrapper col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class=" icon-wrapper col-xs-6 col-sm-6 col-md-2 col-lg-2">
 							<a href="">
 								<div id="our-services">
 									<div class="icon-border">
-										<i id="our-services-icon" class="about-us-background fab far fa-star fa-5x"></i>
+										<i id="our-services-icon" class="about-us-background fab far fa-star fa-3x"></i>
 									</div>
-									<h3>Our Servises</h3>
+									<h3>Our Services</h3>
 									<br>
 									<em>
 										<p>What we can do for you</p>
@@ -138,11 +139,11 @@
 								</div>
 							</a>
 						</div>
-						<div class="about-us icon-wrapper col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class=" icon-wrapper col-xs-6 col-sm-6 col-md-2 col-lg-2">
 							<a href="">
 								<div id="about-us">
 									<div class="about-us-background icon-border">
-										<i id="about-us-icon" class="about-us-background far fa-thumbs-up fa-5x"></i>
+										<i id="about-us-icon" class="about-us-background far fa-thumbs-up fa-3x"></i>
 									</div>
 									<h3>About Us</h3>
 									<br>
@@ -152,11 +153,11 @@
 							</a>
 							</div>
 						</div>
-						<div class="about-us icon-wrapper col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class=" icon-wrapper col-xs-6 col-sm-6 col-md-2 col-lg-2">
 							<a href="">
 								<div id="contact-us">
 									<div class="icon-border">
-										<i id="contact-us-icon" class="about-us-background far fa-envelope fa-5x"></i>
+										<i id="contact-us-icon" class="about-us-background far fa-envelope fa-3x"></i>
 									</div>
 									<h3>Contact Us</h3>
 									<br>
@@ -166,14 +167,9 @@
 								</div>
 							</a>
 						</div>
+						<div class=" icon-wrapper visible-xl hidden-sm hidden-xs col-md-2 col-lg-2"></div>
 					</div>
 				</div>
-
-
-
-				<p> </p>
-
-
 
 			</section>
 
@@ -181,18 +177,49 @@
 
 			<!-- Our Work Section -->
 
-			<section id="work" class="container-fluid">
+			<section id="work">
 				<header class="text-center">
 					<h2>Our Work</h2>
+					<hr class="section-hr">
 				</header>
-				<div class="container-fluid">
+				<div class="container">
 					<div class="row">
-						<div class="small-picture col-xs-12 col-sm-12 col-md-5 col-lg-5"></div>
-						<div class="large-picture col-xs-12 col-sm-12 col-md-7 col-lg-7"></div>
-					</div>
-					<div class="row">
-						<div class="large-picture col-xs-12 col-sm-12 col-md-5 col-lg-5"></div>
-						<div class="small-picture col-xs-12 col-sm-12 col-md-7 col-lg-7"></div>
+						<div class="our-work col-xs-12 col-sm-12 col-md-4 col-lg-4">
+							<a class="hidden-xs hidden-sm hidden-md" href="" data-toggle='modal' data-target='#peaks'>
+								<img src="assets/files/small/1.jpg" alt="our work">
+							</a>
+							<div class="hidden-lg">
+								<img src="assets/files/small/1.jpg" alt="our work">
+							</div>
+							<div class="our-work-notes">
+								<h3>Peaks</h3>
+								<p>For Roman Holba</p>
+							</div>
+						</div>
+						<div class="our-work col-xs-12 col-sm-12 col-md-4 col-lg-4">
+							<a class="hidden-xs hidden-sm hidden-md" href="" data-toggle='modal' data-target='#happyJourney'>
+								<img src="assets/files/small/2.jpg" alt="our work">
+							</a>
+							<div class="hidden-lg">
+								<img src="assets/files/small/2.jpg" alt="our work">
+							</div>
+							<div class="our-work-notes">
+								<h3>Happy Journey</h3>
+								<p>For Adil Chaouki</p>
+							</div>
+						</div>
+						<div class="our-work col-xs-12 col-sm-12 col-md-4 col-lg-4">
+							<a class="hidden-xs hidden-sm hidden-md" href="" data-toggle='modal' data-target='#straightEdge'>
+								<img src="assets/files/small/3.jpg" alt="our work">
+							</a>
+							<div class="hidden-lg">
+								<img src="assets/files/small/3.jpg" alt="our work">
+							</div>
+							<div class="our-work-notes">
+								<h3>Straight Edge</h3>
+								<p>For Frederic Fuss</p>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -222,6 +249,32 @@
 	<footer>
 
 	</footer>
+
+		<!-- Pop Up "Our work" Images -->
+		
+		<div class="modal fade" id="peaks" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-content">
+				<div class="modal-body modal-body-img">
+					<img src="assets/files/large/1.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="happyJourney" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-content">
+				<div class="modal-body modal-body-img">
+					<img src="assets/files/large/2.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="straightEdge" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-content">
+				<div class="modal-body modal-body-img">
+					<img src="assets/files/large/3.jpg" alt="">
+				</div>
+			</div>
+		</div>
 
 	<!-- Conact form -->
 

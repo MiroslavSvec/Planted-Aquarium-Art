@@ -32,6 +32,23 @@ section {
 	height: auto;
 	padding-top: 50px;
 }
+h2 {
+	font-weight: 700;
+}
+h3 {
+	margin-top: 0;
+}
+h4 {
+	font-family: "Norican", cursive;
+}
+.section-hr {
+	margin-top: 0;
+	margin-bottom: 50px;
+    width: 10%;
+    height: 1px;
+    background-color: #000000;
+    border: 0;
+}
 
 /* Header / Nav */
 
@@ -83,7 +100,7 @@ section {
 #slide-show {
 	height: 100vh;
 	padding: 0;
-	background: url('../files/1.jpg') no-repeat center center fixed;
+	background: url('../files/100.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -93,9 +110,9 @@ section {
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 100%;
+	height: 100vh;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.3)
+	background-color: rgba(0, 0, 0, 0.1);
 }
 .title {
 	position: relative;
@@ -118,7 +135,7 @@ section {
 	margin-bottom: 30px;
 }
 .title h1 {
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(255, 255, 255, 0.9);
 	font-family: 'Tangerine', serif;
 	font-size: 3em;
 	font-weight: 500;
@@ -168,17 +185,14 @@ a:-webkit-any-link p {
 .icon-border {
 	background-color: #5cb85c;
 	border-radius: 50%;
-	width: 110px;
-	height: 110px;
+	width: 75px;
+	height: 75px;
 	margin: 0 auto;
-}
-.about-us {
-	
 }
 .about-us-background {
 	color: #ffffff;
-	height: 110px;
-  	line-height: 110px;
+	height: 75px;
+  	line-height: 75px;
   	white-space: nowrap;
 }
 .about-us-background-dark {
@@ -198,16 +212,30 @@ a:-webkit-any-link p {
 
 #work {
 	background-color: #dfdfdf;
-	height: 700px;
+	padding-bottom: 150px;
 }
-.small-picture,
-.large-picture {
-	background-color: #000000;
-	height: 50vh;
+.our-work {
+	padding-bottom: 10px;
 }
-.large-picture {
+.our-work img {
+	width: 100%;
+}
+.modal-body-img {
+	text-align: center;
+}
+.our-work-notes {
+	padding: 25px;
+	text-align: center;
 	background-color: #ffffff;
 }
+.our-work-notes h3 {
+	font-family: "Norican", cursive;
+}
+.our-work-notes p {
+	color: #b4b4b4;
+}
+
+
 
 
 
