@@ -19,7 +19,7 @@ a {
     color: #ffffff;
 }
 a:hover {
-opacity: 1;
+	opacity: 1;
 }
 a:btn {
     border-radius: 4px;
@@ -212,7 +212,7 @@ a:-webkit-any-link p {
 
 #work {
 	background-color: #dfdfdf;
-	padding-bottom: 150px;
+	padding-bottom: 150px;	
 }
 .our-work {
 	padding-bottom: 10px;
@@ -266,13 +266,29 @@ a:-webkit-any-link p {
 
 /* Services Section */
 
-#services {
-	background-color: #000000;
-	height: 700px;
+.services-notes {
+	margin-bottom: 20px;
+}
+#services .fa-question,
+#services .fa-cubes,
+#services .fa-cogs,
+#services .fa-plus,
+#services p {
+	color: #a5a5a5;
+}
+#services h3 {
+	margin-top: 10px;
+}
+#services .container .row .section-hr {
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 
-
+.pokus {
+	background-color: #000000;
+	
+}
 
 /* Contact Form */
 
