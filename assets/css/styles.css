@@ -31,6 +31,7 @@ a:btn {
 section {
 	height: auto;
 	padding-top: 50px;
+	padding-bottom: 100px;
 }
 h2 {
 	font-weight: 700;
@@ -42,7 +43,7 @@ h2 {
 	text-transform: none;
 }
 h3 {
-	margin-top: 0;
+	margin-top: 10px;
 }
 h4 {
 	font-family: "Norican", cursive;
@@ -154,10 +155,6 @@ h4 {
 
  /* Moto Section */
 
-#our-moto {
-	height: auto;	
-	padding-bottom: 50px;
-}
 #our-moto header {
 	padding: 0px 25px 50px 25px;
 }
@@ -211,8 +208,7 @@ a:-webkit-any-link p {
 /* Our Work Section */
 
 #work {
-	background-color: #dfdfdf;
-	padding-bottom: 150px;	
+	background-color: #dfdfdf;	
 }
 .our-work {
 	padding-bottom: 10px;
@@ -276,17 +272,45 @@ a:-webkit-any-link p {
 #services p {
 	color: #a5a5a5;
 }
-#services h3 {
-	margin-top: 10px;
-}
 #services .container .row .section-hr {
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
 
+/* About Us Section */
+
+#about-us-section {
+	background-color: #dfdfdf;
+}
+#about-us-section .container {
+	background-color: #ffffff;
+}
+.about-us-picture {
+	margin-bottom: 25px;
+	height: 400px;
+	width: 100%;
+	background: url('../files/large/6.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+.about-us-text {
+	margin-bottom: 5px;
+	background-color: #ffffff;
+}
+.about-us-text h3 {
+	font-weight: 700;
+}
+#quote {
+	padding-top: 25px;
+}
+
+
 
 .pokus {
 	background-color: #000000;
+	height: 100px;
 	
 }
 
