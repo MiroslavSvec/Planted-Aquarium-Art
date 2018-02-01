@@ -48,6 +48,9 @@ h3 {
 h4 {
 	font-family: "Norican", cursive;
 }
+h5 {
+	font-weight: 700;
+}
 .section-hr {
 	margin-top: 0;
 	margin-bottom: 50px;
@@ -306,11 +309,29 @@ a:-webkit-any-link p {
 	padding-top: 25px;
 }
 
+/* Contact Us Section */
 
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	min-height: 50px;
+	padding: 10px;
+	background-color: #e0dfdf;
+	border: 0;
+}
+#contact-details h5,
+#contact-details p {
+	margin-bottom: 15px;
+}
+#submit {
+	background-color: #e0dfdf;
+}
 
-.pokus {
+/* Footer */
+
+#footer {
 	background-color: #000000;
-	height: 100px;
+	height: 500px;
 	
 }
 
