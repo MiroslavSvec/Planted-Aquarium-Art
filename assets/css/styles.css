@@ -364,11 +364,13 @@ a:-webkit-any-link p {
 .help-block {
 	color: #000000;
 }
-#copyright {
+#copyright,
+#contact-me {
 	padding-left: 17px;
 	background-color: rgba(0, 0, 0, 0.705);
 }
-#copyright h2 {
+#copyright h2,
+#contact-me h2 {
 	padding: 25px 0;
 	color: #ffffff;
 	font-family: 'Tangerine', serif;
@@ -376,11 +378,14 @@ a:-webkit-any-link p {
 	letter-spacing: 1.25rem;
 }
 #copyright h3,
-#copyright p {
+#copyright p,
+#contact-me p {
 	color: #ffffff;
 }
 #copyright p,
-#copyright a {
+#copyright a,
+#contact-me p,
+#contact-me a {
 	font-size: 1.8rem;
 }
 #copyright a {
@@ -391,4 +396,10 @@ a:-webkit-any-link p {
 }
 #copyright-text {
 	padding: 50px;
+}
+#contact-me a {
+	color: #ff5e00;
+}
+#my-email {
+	color: #5cb85c;
 }
