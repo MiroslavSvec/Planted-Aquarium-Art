@@ -355,6 +355,7 @@ a:-webkit-any-link p {
 	padding-bottom: 20px;
 }
 
+
 /* Modals */
 
 .modal-content {
@@ -363,15 +364,31 @@ a:-webkit-any-link p {
 .help-block {
 	color: #000000;
 }
+#copyright {
+	padding-left: 17px;
+	background-color: rgba(0, 0, 0, 0.705);
+}
 #copyright h2 {
+	padding: 25px 0;
 	color: #ffffff;
-	font-family: "Norican", cursive;
+	font-family: 'Tangerine', serif;
+	font-size: 5rem;
 	letter-spacing: 1.25rem;
 }
 #copyright h3,
-#copyright p a {
+#copyright p {
 	color: #ffffff;
 }
+#copyright p,
+#copyright a {
+	font-size: 1.8rem;
+}
+#copyright a {
+	color: #5cb85c;
+}
 #copyright h3 {
-	text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.7);
+	padding-top: 50px;
+}
+#copyright-text {
+	padding: 50px;
 }
