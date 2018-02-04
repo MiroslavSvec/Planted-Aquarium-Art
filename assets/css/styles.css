@@ -268,11 +268,8 @@ a:-webkit-any-link p {
 .services-notes {
 	margin-bottom: 20px;
 }
-#services .fa-question,
-#services .fa-cubes,
-#services .fa-cogs,
-#services .fa-plus,
-#services p {
+.services-notes i,
+.services-notes p {
 	color: #a5a5a5;
 }
 #services .container .row .section-hr {
