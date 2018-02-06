@@ -4,9 +4,6 @@ body {
 	font-family: "Source Sans Pro", sans-serif;
 	background-color: #ffffff;
 }
-#main { /* !!! */
-	padding: 0;
-}
 a:-webkit-any-link {
     text-decoration: none;
     opacity: 1;
@@ -14,25 +11,19 @@ a:-webkit-any-link {
 }
 section {
 	height: auto;
-	padding-top: 50px;
-	padding-bottom: 100px;
+	padding: 75px 0;
 }
-h2 {
+h2,
+h5 {
 	font-weight: 700;
 }
 .h2-text {
-	font-family: Georgia,serif;
 	font-weight: 400;
 	text-transform: none;
 }
-h3 {
-	margin-top: 10px;
-}
+
 h4 {
 	font-family: "Norican", cursive;
-}
-h5 {
-	font-weight: 700;
 }
 .section-hr {
 	margin-top: 0;
