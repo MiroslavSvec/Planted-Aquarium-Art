@@ -83,18 +83,18 @@ h5 {
 	border: 0;	
 	margin: 0;
 }
-.navbar .navbar-brand {
-	color: rgba(255, 255, 255, 0.8)	
-}
 .fa-pagelines {
 	color: #5cb85c;
+}
+.navbar-default  .navbar-brand {
+	color: rgba(255, 255, 255, 0.8)	
 }
 .navbar-default .navbar-toggle {
 	border: 0;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 5px;
+    
 }
 .navbar-default .navbar-nav > li > a {
 	text-align: right;
@@ -110,7 +110,8 @@ h5 {
 #slide-show {
 	height: 100vh;
 	padding: 0;
-	background: url('../files/100.jpg') no-repeat center center fixed;
+	background: url('../files/100.jpg') no-repeat center center;
+	background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
