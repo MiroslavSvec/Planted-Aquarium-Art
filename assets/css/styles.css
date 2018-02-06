@@ -8,20 +8,9 @@ body {
 	padding: 0;
 }
 a:-webkit-any-link {
-	text-decoration: none;
-	opacity: 0.75;
-    color: #ffffff;
-}
-a:hover {
-	opacity: 1;
-	border-bottom: 1px solid #ffffff;
-}
-a:btn {
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-weight: 400;
-    text-align: center;
+    text-decoration: none;
     opacity: 1;
+	color: #000000;
 }
 section {
 	height: auto;
@@ -71,7 +60,6 @@ h5 {
 }
 .dark-header {
 	background-color: rgba(0,0,0,0.596078);
-	text-align: center;
 }
 #header nav {
 	background-color: transparent;
@@ -95,14 +83,16 @@ h5 {
 }
 .navbar-default .navbar-nav > li > a {
 	text-align: right;
+	opacity: 0.75;
 	background: linear-gradient(to right, transparent 60%,rgba(0,0,0,0.5) 100%);
 	-webkit-background: linear-gradient(to right, transparent 60%,rgba(0,0,0,0.5) 100%);
 	-moz-background: linear-gradient(to right, transparent 60%,rgba(0,0,0,0.5) 100%);
-	color: rgba(255, 255, 255, 0.8);
+	color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-	color: #ffffff;
+	opacity: 1;
+	color: #ffffff;	
 }
 .navbar-nav {
 	margin-bottom: 0;
@@ -173,15 +163,10 @@ h5 {
 #about {
 	margin-bottom: 50px;
 }
-a:-webkit-any-link {
-    text-decoration: none;
-    opacity: 1;
-	color: #000000;
-}
-a:-webkit-any-link h3 {
+.icon-wrapper a:-webkit-any-link h3 {
 	font-weight: 700;
 }
-a:-webkit-any-link p {
+.icon-wrapper a:-webkit-any-link p {
 	color: #a5a5a5;
 }
 .icon-wrapper {
