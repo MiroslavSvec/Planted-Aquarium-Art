@@ -55,12 +55,15 @@
 /* xl Screens */
 
 @media (min-width: 1400px) {
-  #slide-show {
+	a:hover {
+	border-bottom: 1px solid #ffffff;
+	}
+  	#slide-show {
 	background-attachment: fixed;
 	display: flex;
 	justify-content: center;
-  }
-  .title {
+	}
+ 	.title {
 	padding-left: 0px;
 	padding-right: 200px;
 	  

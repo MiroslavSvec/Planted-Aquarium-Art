@@ -9,17 +9,12 @@ body {
 }
 a:-webkit-any-link {
 	text-decoration: none;
-	opacity: 1;
-	color: rgba(255, 255, 255, 0.8);
-	
-}
-a {
-    text-decoration: none;
-    opacity: 0.75;
+	opacity: 0.75;
     color: #ffffff;
 }
 a:hover {
 	opacity: 1;
+	border-bottom: 1px solid #ffffff;
 }
 a:btn {
     border-radius: 4px;
@@ -38,7 +33,6 @@ h2 {
 }
 .h2-text {
 	font-family: Georgia,serif;
-    font-style: italic;
 	font-weight: 400;
 	text-transform: none;
 }
@@ -77,6 +71,7 @@ h5 {
 }
 .dark-header {
 	background-color: rgba(0,0,0,0.596078);
+	text-align: center;
 }
 #header nav {
 	background-color: transparent;
@@ -86,15 +81,17 @@ h5 {
 .fa-pagelines {
 	color: #5cb85c;
 }
-.navbar-default  .navbar-brand {
+.navbar-default .navbar-brand {
 	color: rgba(255, 255, 255, 0.8)	
+}
+.navbar-brand span {
+	margin-left: 10px;
 }
 .navbar-default .navbar-toggle {
 	border: 0;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: rgba(255, 255, 255, 0.8);
-    
+    background-color: rgba(255, 255, 255, 0.8);    
 }
 .navbar-default .navbar-nav > li > a {
 	text-align: right;
@@ -102,6 +99,13 @@ h5 {
 	-webkit-background: linear-gradient(to right, transparent 60%,rgba(0,0,0,0.5) 100%);
 	-moz-background: linear-gradient(to right, transparent 60%,rgba(0,0,0,0.5) 100%);
 	color: rgba(255, 255, 255, 0.8);
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+	color: #ffffff;
+}
+.navbar-nav {
+	margin-bottom: 0;
 }
 
 
