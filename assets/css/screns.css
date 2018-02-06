@@ -56,6 +56,7 @@
 
 @media (min-width: 1400px) {
   #slide-show {
+	background-attachment: fixed;
 	display: flex;
 	justify-content: center;
   }
@@ -87,6 +88,9 @@
 	width: 3%;
 	margin-bottom: 100px;
   }
+  #get-in-touch {
+	  background-attachment: fixed;
+  } 
   .services-notes {
 	margin-bottom: 0;
 }

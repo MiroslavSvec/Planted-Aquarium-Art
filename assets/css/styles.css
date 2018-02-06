@@ -240,7 +240,8 @@ a:-webkit-any-link p {
 #get-in-touch {
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background: url('../files/large/7.jpg') no-repeat center center fixed;
+	background: url('../files/large/7.jpg') no-repeat center center;
+	background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
