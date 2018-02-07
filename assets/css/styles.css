@@ -95,7 +95,7 @@ h4 {
 #slide-show {
 	height: 100vh;
 	padding: 0;
-	background: url('../files/100.jpg') no-repeat center center;
+	background: url('../files/100.jpg') no-repeat center;
 	background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -322,6 +322,9 @@ h4 {
 }
 #footer a:hover {
 	opacity: 1;
+}
+.fa-twitter:hover {
+	color: #1da1f2;
 }
 #footer-hr {
 	background-color: #ffffff;
