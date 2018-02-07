@@ -2,7 +2,7 @@
 
 body {
 	font-family: "Source Sans Pro", sans-serif;
-	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.7);
 }
 a:-webkit-any-link {
     text-decoration: none;
@@ -317,14 +317,35 @@ h4 {
 #footer p {
 	padding-top: 20px;
 }
-#footer a {
+#footer a i {
 	padding: 0 25px;
 }
 #footer a:hover {
 	opacity: 1;
 }
-.fa-twitter:hover {
+#footer a .fa-twitter:hover {
 	color: #1da1f2;
+	transition: all .35s ease-in-out;
+	-moz-transition: all .35s ease-in-out;
+	-webkit-transition: all .35s ease-in-out;
+}
+#footer a .fa-facebook-f:hover {
+	color: #4267b2;
+	transition: all .35s ease-in-out;
+	-moz-transition: all .35s ease-in-out;
+	-webkit-transition: all .35s ease-in-out;
+}
+#footer a .fa-linkedin-in:hover {
+	color: #0077b5;
+	transition: all .35s ease-in-out;
+	-moz-transition: all .35s ease-in-out;
+	-webkit-transition: all .35s ease-in-out;
+}
+#footer a .fa-instagram:hover {
+	color: #d5298d;
+	transition: all .35s ease-in-out;
+	-moz-transition: all .35s ease-in-out;
+	-webkit-transition: all .35s ease-in-out;
 }
 #footer-hr {
 	background-color: #ffffff;
