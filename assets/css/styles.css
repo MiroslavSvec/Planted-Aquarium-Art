@@ -2,7 +2,10 @@
 
 body {
 	font-family: "Source Sans Pro", sans-serif;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: #000000;
+}
+main:nth-child(2n) {  
+  background-color: #ffffff;	
 }
 a:-webkit-any-link {
     text-decoration: none;
@@ -60,11 +63,9 @@ h4 {
 .fa-pagelines {
 	color: #5cb85c;
 }
-.navbar-default .navbar-brand {
-	color: rgba(255, 255, 255, 0.8)	
-}
 .navbar-brand a {
 	margin-left: 10px;
+	color: rgba(255, 255, 255, 0.8)	
 }
 .navbar-default .navbar-toggle {
 	border: 0;
@@ -80,6 +81,8 @@ h4 {
 	-moz-background: linear-gradient(to right, transparent 60%,rgba(0,0,0,0.5) 100%);
 	color: #ffffff;
 }
+.navbar-brand a:focus,
+.navbar-brand a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
 	opacity: 1;
