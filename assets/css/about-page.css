@@ -2,20 +2,18 @@
 
 /* General */
 
+body {
+	background-color: #000000;
+}
+
 main {
 	height: 100%;
-	padding: 0 1%;
 	background: url('../files/main-background.png') no-repeat;
 	background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 	background-size: cover;
-}
-@media (min-width: 1400px) {
-  	main {
-		  padding: 0 5%;
-	  }
 }
 main:nth-child(2n) {  
   background-color: transparent;	

@@ -5,7 +5,7 @@
 	height: 50px;
 	padding: 5px 0;
 	font-size: 30px;
-	line-height: 35px;
+	line-height: 40px;
 	border-radius: 50%;
 }
 
@@ -53,7 +53,7 @@
 
 }
 #footer a .fa-facebook-f {
-	-webkit-animation: facebookter 2s 0.6s alternate infinite;
+	-webkit-animation: facebook 2s 0.6s alternate infinite;
 	-moz-animation: facebook 2s 0.6s alternate infinite;
 	-o-animation: facebook 2s 0.6s alternate infinite;
 	animation: facebook 2s 0.6s alternate infinite;
