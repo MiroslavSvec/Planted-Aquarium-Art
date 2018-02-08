@@ -58,6 +58,33 @@
 	-o-animation: facebook 2s 0.5s alternate infinite;
 	animation: facebook 2s 0.5s alternate infinite;
 }
+@-webkit-keyframes facebook {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #4267b2;
+	}
+
+}
+@-moz-keyframes facebook {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #4267b2;
+	}
+
+}
+@-o-keyframes facebook {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #4267b2;
+	}
+
+}
 @keyframes facebook {
 	from {
 		background: transparent;
@@ -73,6 +100,33 @@
 	-o-animation: linkedin 2s 1s alternate infinite;
 	animation: linkedin 2s 1s alternate infinite;
 }
+@-webkit-keyframes linkedin {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #0077b5;
+	}
+
+}
+@-moz-keyframes linkedin {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #0077b5;
+	}
+
+}
+@-o-keyframes linkedin {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #0077b5;
+	}
+
+}
 @keyframes linkedin {
 	from {
 		background: transparent;
@@ -87,6 +141,33 @@
 	-moz-animation: instagram 2s 1.5s alternate infinite;
 	-o-animation: instagram 2s 1.5s alternate infinite;
 	animation: instagram 2s 1.5s alternate infinite;
+}
+@-webkit-keyframes instagram {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #d5298d;
+	}
+
+}
+@-moz-keyframes instagram {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #d5298d;
+	}
+
+}
+@-o-keyframes instagram {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #d5298d;
+	}
+
 }
 @keyframes instagram {
 	from {
