@@ -63,7 +63,7 @@ h4 {
 .navbar-default .navbar-brand {
 	color: rgba(255, 255, 255, 0.8)	
 }
-.navbar-brand span {
+.navbar-brand a {
 	margin-left: 10px;
 }
 .navbar-default .navbar-toggle {
@@ -354,8 +354,6 @@ h4 {
 	font-size: 30px;
 	line-height: 35px;
 }
-#footer a .fa-instagram, {}
-
 
 #footer a .fa-twitter {
 	border-radius: 50%;
