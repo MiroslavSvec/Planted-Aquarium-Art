@@ -1,0 +1,99 @@
+/* Footer links animation */
+
+.footer-links a i {	
+	width: 50px;
+	height: 50px;
+	padding: 5px 0;
+	font-size: 30px;
+	line-height: 35px;
+	border-radius: 50%;
+}
+
+#footer a .fa-twitter {
+	border-radius: 50%;
+	-webkit-animation: twitter 2s alternate infinite;
+	-moz-animation: twitter 2s alternate infinite;
+	-o-animation: twitter 2s alternate infinite;
+	animation: twitter 2s alternate infinite;
+}
+@-webkit-keyframes twitter {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #1da1f2;
+	}
+
+}
+@-moz-keyframes twitter {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #1da1f2;
+	}
+
+}
+@-o-keyframes twitter {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #1da1f2;
+	}
+
+}
+@keyframes twitter {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #1da1f2;
+	}
+
+}
+#footer a .fa-facebook-f {
+	-webkit-animation: facebookter 2s 0.5s alternate infinite;
+	-moz-animation: facebook 2s 0.5s alternate infinite;
+	-o-animation: facebook 2s 0.5s alternate infinite;
+	animation: facebook 2s 0.5s alternate infinite;
+}
+@keyframes facebook {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #4267b2;
+	}
+
+}
+#footer a .fa-linkedin-in {
+	-webkit-animation: linkedin 2s 1s  alternate infinite;
+	-moz-animation: linkedin 2s 1s alternate infinite;
+	-o-animation: linkedin 2s 1s alternate infinite;
+	animation: linkedin 2s 1s alternate infinite;
+}
+@keyframes linkedin {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #0077b5;
+	}
+
+}
+#footer a .fa-instagram {
+	-webkit-animation: instagram 2s 1.5s alternate infinite;
+	-moz-animation: instagram 2s 1.5s alternate infinite;
+	-o-animation: instagram 2s 1.5s alternate infinite;
+	animation: instagram 2s 1.5s alternate infinite;
+}
+@keyframes instagram {
+	from {
+		background: transparent;
+	}
+	to {
+		background: #d5298d;
+	}
+
+}

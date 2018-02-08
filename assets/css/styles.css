@@ -343,72 +343,9 @@ h4 {
 }
 #footer p {
 	padding-top: 20px;
-}/*
-#footer a i {
+}
+#footer .secreet a i {
 	padding: 0 25px;
-} */
-.footer-links a i {	
-	width: 50px;
-	height: 50px;
-	padding: 5px 0;
-	font-size: 30px;
-	line-height: 35px;
-}
-
-#footer a .fa-twitter {
-	border-radius: 50%;
-	animation: twitter 2s alternate infinite;
-}
-@keyframes twitter {
-	from {
-		background: transparent;
-	}
-	to {
-		background: #1da1f2;
-	}
-
-}
-#footer a .fa-facebook-f {
-	border-radius: 50%;
-	animation: facebook 2s alternate infinite;
-	animation-delay: 0.5s;
-}
-@keyframes facebook {
-	from {
-		background: transparent;
-	}
-	to {
-		background: #4267b2;
-	}
-
-}
-#footer a .fa-linkedin-in {
-	border-radius: 50%;
-	animation: linkedin 2s alternate infinite;
-	animation-delay: 1s;
-}
-@keyframes linkedin {
-	from {
-		background: transparent;
-	}
-	to {
-		background: #0077b5;
-	}
-
-}
-#footer a .fa-instagram {
-	border-radius: 50%;
-	animation: instagram 2s alternate infinite;
-	animation-delay: 1.5s;
-}
-@keyframes instagram {
-	from {
-		background: transparent;
-	}
-	to {
-		background: #d5298d;
-	}
-
 }
 #footer-hr {
 	background-color: #ffffff;
@@ -417,7 +354,6 @@ h4 {
 .secreet {
 	padding-bottom: 20px;
 }
-
 
 /* Modals */
 
