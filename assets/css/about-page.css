@@ -23,6 +23,7 @@ section {
 	padding: 75px 0;
 }
 .section-hr {
+	width: 15%;
 	background-color: #fff;    
 }
 .green {
@@ -43,6 +44,15 @@ section a:-webkit-any-link {
 }
 a:-webkit-any-link:hover {
     opacity: 1;
+}
+.section-ol {
+}
+
+.section-ol h3 {
+	margin: 50px 0;
+}
+.section-ol p {
+	margin-left: 50px;
 }
 	
 /* Intro section */
