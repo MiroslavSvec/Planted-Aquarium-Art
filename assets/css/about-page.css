@@ -46,6 +46,7 @@ a:-webkit-any-link:hover {
     opacity: 1;
 }
 .section-ol {
+	text-decoration-style: solid;
 }
 
 .section-ol h3 {
@@ -83,8 +84,6 @@ a:-webkit-any-link:hover {
 #footer {
 	background-color: rgba(0, 0, 0, 0.9);	
 }
-
-
 
 /*****************
 
