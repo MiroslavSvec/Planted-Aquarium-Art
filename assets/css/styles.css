@@ -2,10 +2,6 @@
 
 body {
 	font-family: "Source Sans Pro", sans-serif;
-	background-color: #000000;
-}
-main:nth-child(2n) {  
-  background-color: #ffffff;	
 }
 a:-webkit-any-link {
     text-decoration: none;
@@ -17,6 +13,7 @@ section {
 	padding: 75px 0;
 }
 h2,
+h3,
 h5 {
 	font-weight: 700;
 }
@@ -33,8 +30,8 @@ h4 {
 	margin-bottom: 50px;
     width: 10%;
     height: 1px;
-    background-color: #000000;
-    border: 0;
+	background-color: #000000;
+	border: 0;
 }
 
 /* Header / Nav */
@@ -53,7 +50,46 @@ h4 {
 	background-color: transparent;
 }
 .dark-header {
-	background-color: rgba(0,0,0,0.596078);
+	-webkit-animation: header-animation  1s forwards;
+	-moz-animation: header-animation  1s forwards;
+	-o-animation: header-animation  1s forwards;
+	animation: header-animation  1s forwards;
+}
+@-webkit-keyframes header-animation  {
+	from {
+		background: transparent;
+	}
+	to {
+		background: rgba(0,0,0,0.596078);
+	}
+
+}
+@-moz-keyframes header-animation  {
+	from {
+		background: transparent;
+	}
+	to {
+		background: rgba(0,0,0,0.596078);
+	}
+
+}
+@-o-keyframes header-animation  {
+	from {
+		background: transparent;
+	}
+	to {
+		background: rgba(0,0,0,0.596078);
+	}
+
+}
+@keyframes header-animation {
+	from {
+		background: transparent;
+	}
+	to {
+		background: rgba(0,0,0,0.596078);
+	}
+
 }
 #header nav {
 	background-color: transparent;
@@ -178,10 +214,6 @@ h4 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
-
-.icon-wrapper a:-webkit-any-link h3 {
-	font-weight: 700;
-}
 .icon-wrapper a:-webkit-any-link p {
 	color: #a5a5a5;
 }
@@ -304,9 +336,6 @@ h4 {
 .about-us-text {
 	margin-bottom: 5px;
 	background-color: #ffffff;
-}
-.about-us-text h3 {
-	font-weight: 700;
 }
 #quote {
 	padding-top: 25px;
