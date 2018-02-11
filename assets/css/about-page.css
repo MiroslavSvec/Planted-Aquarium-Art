@@ -2,10 +2,6 @@
 
 /* General */
 
-body {
-	background-color: #000000;
-}
-
 main {
 	height: 100%;
 	background: url('../files/main-background.png') repeat-y; 
@@ -15,12 +11,10 @@ main {
     -o-background-size: cover;
 	background-size: cover;
 }
-
 section {
 	color: rgba(255, 255, 255, 0.7);
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(0, 0, 0, 0.75);
 	margin: 0;
-	padding: 75px 0;
 }
 .section-hr {
 	width: 15%;
@@ -45,9 +39,7 @@ section a:-webkit-any-link {
 a:-webkit-any-link:hover {
     opacity: 1;
 }
-.section-ol {
-	text-decoration-style: solid;
-}
+.section-ol {}
 
 .section-ol h3 {
 	margin: 50px 0;
