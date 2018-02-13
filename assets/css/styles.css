@@ -45,51 +45,33 @@ h4 {
 	left: 0;
 	right: 0;
 	padding: 0;	
-}
-.transparent-header {
-	background-color: transparent;
+	background: rgba(0, 0, 0, 0.2);
 }
 .dark-header {
-	-webkit-animation: header-animation  1s forwards;
-	-moz-animation: header-animation  1s forwards;
-	-o-animation: header-animation  1s forwards;
-	animation: header-animation  1s forwards;
+	-webkit-animation: dark-header 2s forwards;
+	-moz-animation: dark-header 2s forwards;
+	-o-animation: dark-header 2s forwards;
+	animation: dark-header 2s forwards;
 }
-@-webkit-keyframes header-animation  {
-	from {
-		background: transparent;
+@-webkit-keyframes dark-header {
+	100%  {
+		background: rgba(0,0,0,0.7);
 	}
-	to {
-		background: rgba(0,0,0,0.596078);
-	}
-
 }
-@-moz-keyframes header-animation  {
-	from {
-		background: transparent;
+@-moz-keyframes dark-header {
+	100%  {
+	 	background: rgba(0,0,0,0.7);
 	}
-	to {
-		background: rgba(0,0,0,0.596078);
-	}
-
 }
-@-o-keyframes header-animation  {
-	from {
-		background: transparent;
+@-o-keyframes dark-header {
+	100%  {
+		background: rgba(0,0,0,0.7);
 	}
-	to {
-		background: rgba(0,0,0,0.596078);
-	}
-
 }
-@keyframes header-animation {
-	from {
-		background: transparent;
+@keyframes dark-header {
+	100%  {
+		background: rgba(0,0,0,0.7);
 	}
-	to {
-		background: rgba(0,0,0,0.596078);
-	}
-
 }
 #header nav {
 	background-color: transparent;
@@ -103,18 +85,17 @@ h4 {
 	margin-left: 10px;
 	color: rgba(255, 255, 255, 0.8)	
 }
-.navbar-default .navbar-toggle {
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus {
 	border: 0;
+	background-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: rgba(255, 255, 255, 0.8);    
 }
 .navbar-default .navbar-nav > li > a {
-	text-align: right;
+	text-align: center;
 	opacity: 0.75;
-	background: linear-gradient(to right, transparent 60%,rgba(0,0,0,0.5) 100%);
-	-webkit-background: linear-gradient(to right, transparent 60%,rgba(0,0,0,0.5) 100%);
-	-moz-background: linear-gradient(to right, transparent 60%,rgba(0,0,0,0.5) 100%);
 	color: #ffffff;
 }
 .navbar-brand a:focus,
