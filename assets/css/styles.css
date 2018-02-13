@@ -110,12 +110,12 @@ h4 {
 }
 
 
-/* Slide Show */
+/* Welcome Section */
 
 #slide-show {
 	height: 100vh;
 	padding: 0;
-	background: url('../files/100.jpg') no-repeat center;
+	background: url('../files/main-splash-img.jpg') no-repeat center;
 	background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -188,10 +188,10 @@ h4 {
 
  /* Moto Section */
 
-#our-moto header {
+#our-moto #about {
 	padding: 0px 25px 50px 25px;
 }
-#our-moto .row h2 {
+#our-moto #about h2 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -213,15 +213,29 @@ h4 {
   	line-height: 75px;
   	white-space: nowrap;
 }
-.about-us-background-dark {
-	animation-name: icon;
-	animation-duration: 0.5s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+.about-us-background:hover { 
+	-webkit-animation: 1s icon alternate infinite ease-in-out;
+	-moz-animation: 1s icon alternate infinite ease-in-out;
+	-o-animation: 1s icon alternate infinite ease-in-out;
+	animation: 1s icon alternate infinite ease-in-out;
 }
 @keyframes icon {
 	100% {
+		color: #a5a5a5;
+	}
+}
+@-webkit-keyframes icon {
+    100% {
+		color: #a5a5a5;
+	}
+}
+@-moz-keyframes icon {
+    100% {
+		color: #a5a5a5;
+	}
+}
+@-o-keyframes icon {
+    100% {
 		color: #a5a5a5;
 	}
 }
