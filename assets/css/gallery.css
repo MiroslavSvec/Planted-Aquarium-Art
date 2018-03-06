@@ -1,15 +1,17 @@
-.small-picture,
-.large-picture {
+.gallery-picture {
     margin-bottom: 35px;
-    width: 100%;
+	width: 100%;
     background-color: #000000;
 }
-
 #header {
     background: rgba(0, 0, 0, 0.7);
 }
 
-
+h5,
+h6 {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
 /* body,
 .our-work-notes {
     background-color: #000000;
