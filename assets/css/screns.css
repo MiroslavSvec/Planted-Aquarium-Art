@@ -61,6 +61,9 @@
         background-attachment: fixed;
         display: flex;
         justify-content: center;
+	}
+	#gallery-splash-img {
+        background-attachment: fixed;
     }
     .title {
         padding-left: 0px;
