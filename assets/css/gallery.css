@@ -1,9 +1,9 @@
+/* General Rules */
+
 .gallery-picture {
-    margin-bottom: 35px;
     width: 100%;
     background-color: #000000;
 }
-
 #header {
     background: rgba(0, 0, 0, 0.7);
 }
@@ -12,12 +12,13 @@ h5 {
     margin-bottom: 15px;
     font-weight: 700;
 }
-
+.gallery-card-description {
+	background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+} 
 label {
     font-size: 90%;
-}
-.card {
-	background-color: black;
 }
 
 
@@ -25,10 +26,6 @@ label {
 
 #small-aquariums {
     background-color: #dfdfdf;
-}
-
-#small-aquariums .container {
-    background-color: #fff;
 }
 
 
