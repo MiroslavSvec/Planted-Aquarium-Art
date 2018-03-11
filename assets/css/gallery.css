@@ -36,7 +36,8 @@ label {
 
 /* Small Aquariums */
 
-#small-aquariums {
+#small-aquariums,
+#large-aquariums {
     background-color: #dfdfdf;
 }
 
