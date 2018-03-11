@@ -269,8 +269,7 @@ h4 {
 /* Get In Touch Section */
 
 #get-in-touch {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding: 100px 50px;
 	background: url('../files/second-splash-img.jpg') no-repeat center center;
 	background-attachment: scroll;
     -webkit-background-size: cover;
