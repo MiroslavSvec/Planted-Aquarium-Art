@@ -12,14 +12,17 @@ h5 {
     margin-bottom: 15px;
     font-weight: 700;
 }
+
+#small-aquariums,
+#large-aquariums {
+    background-color: #dfdfdf;
+}
+
 .container .row div ol {
 	background-color: #fff;
     padding: 15px;
     margin-bottom: 20px;
 } 
-label {
-    font-size: 90%;
-}
 
 /* Splah img */
 
@@ -33,16 +36,3 @@ label {
     -o-background-size: cover;
 	background-size: cover;
 }
-
-/* Small Aquariums */
-
-#small-aquariums,
-#large-aquariums {
-    background-color: #dfdfdf;
-}
-
-
-/* body,
-.our-work-notes {
-    background-color: #000000;
-} */
