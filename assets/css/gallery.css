@@ -1,38 +1,38 @@
 /* General Rules */
 
 .gallery-picture {
-    width: 100%;
-    background-color: #000000;
+	width: 100%;
+	background-color: #000000;
 }
 #header {
-    background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.7);
 }
 
 h5 {
-    margin-bottom: 15px;
-    font-weight: 700;
+	margin-bottom: 15px;
+	font-weight: 700;
 }
 
 #small-aquariums,
 #large-aquariums {
-    background-color: #dfdfdf;
+	background-color: #dfdfdf;
 }
 
 .container .row div ol {
 	background-color: #fff;
-    padding: 15px;
-    margin-bottom: 20px;
-} 
+	padding: 15px;
+	margin-bottom: 20px;
+}
 
 /* Splah img */
 
 #gallery-splash-img {
 	height: 100vh;
 	padding: 0;
-	background: url('../files/gallery-splash-img.jpg') no-repeat center;
+	background: url("../files/gallery-splash-img.jpg") no-repeat center;
 	background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 }
