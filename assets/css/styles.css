@@ -106,7 +106,6 @@ h4 {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:active {
 	opacity: 1;
-	border-right: 1px solid #fff;
 }
 .navbar-nav {
 	margin-bottom: 0;
