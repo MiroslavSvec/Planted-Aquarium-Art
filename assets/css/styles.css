@@ -1,5 +1,4 @@
 /* General */
-
 body {
 	font-family: "Source Sans Pro", sans-serif;
 }
@@ -114,7 +113,17 @@ h4 {
 	display: none;
 }
 .visible {
-	display: block;		
+	display: block;
+	border-right: 1px solid #fff;			
+}
+nav.container-fluid ul {
+	border-top: 1px solid #fff;
+}
+.home li a,
+.gallery li a,
+.your-project li a,
+.about-us li a {
+	color: #fff;
 }
 
 
