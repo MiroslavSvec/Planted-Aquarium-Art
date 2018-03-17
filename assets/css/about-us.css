@@ -13,9 +13,8 @@
 .about-us-picture {
 	background: url('../files/us/ryan-thang.jpg') no-repeat center center;
 }
-.title {
-	top: 0%;
-	left: 20%
+#about-company {
+	background-color: #dfdfdf;
 }
 .title h1 {
 	margin-bottom: 5px;
@@ -28,7 +27,3 @@
 .title a:hover {
 	opacity: 0.3;
 }
-#about-company {
-	background-color: #dfdfdf;
-}
-	
