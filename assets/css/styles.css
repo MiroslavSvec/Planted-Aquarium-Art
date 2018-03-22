@@ -126,8 +126,10 @@ h4 {
     opacity: 1;
 }
 
-.navbar-nav {
-    margin-bottom: 0;
+.nav>li>a:hover,
+.nav>li>a:focus .navbar-nav {
+    background-color: transparent;
+    opacity: 0.75;
 }
 
 .section-nav {
@@ -135,7 +137,7 @@ h4 {
 }
 
 .section-nav li a {
-	float: right;
+    float: right;
 }
 
 #sub-links li ol {
@@ -331,6 +333,7 @@ nav.container-fluid ul {
 
 #work .btn-lg {
     color: white;
+    font-weight: 700;
     background-color: #5cb85c;
 }
 

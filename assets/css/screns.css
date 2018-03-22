@@ -62,6 +62,12 @@
 	.about-us-text h3 {
 		padding: 0 20px;
 	}
+	/* gallery.html */
+	.box-shadow {
+		box-shadow: 0 15px 10px #dfdfdf;
+		padding: 10px;
+		margin-bottom: 30px;
+	}
 }
 
 /* xl Screens */
@@ -114,5 +120,11 @@
 	}
 	.about-us-text h3 {
 		padding: 0 20px;
+	}
+	/* gallery.html */
+	.box-shadow {
+		box-shadow: 0 15px 10px #dfdfdf;
+		padding: 10px;
+		margin-bottom: 30px;
 	}
 }
