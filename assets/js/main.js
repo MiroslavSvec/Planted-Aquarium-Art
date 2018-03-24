@@ -24,3 +24,32 @@ $(document).ready(function() {
 		});
 	}
 });
+
+
+/* about-us.hmtl */
+
+/* Slide Show */ 
+
+function slideShow() {
+	$(".quote-container .quote:gt(0)").hide();
+	$(".quote-container>:first-child")
+		.fadeOut()
+		.next(".quote")
+		.fadeIn()
+		.end()
+		.appendTo(".quote-container");
+}
+
+$(document).ready(function() { /* this part hass been done by @robinz */
+	var func = setInterval(slideShow, 5000);
+	$(".quote-container").hover(
+		function() {
+			clearInterval(func);
+			func = setInterval(slideShow, 7000);
+		},
+		function() {
+			clearInterval(func);
+			func = setInterval(slideShow, 5000);
+		}
+	);
+});

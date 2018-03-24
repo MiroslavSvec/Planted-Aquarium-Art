@@ -11,11 +11,82 @@
     background-size: cover;
 }
 
+h3 {
+    text-align: center;
+}
+
+
+/* About Us */
+
+.slide-show-hr {
+    background-color: #fff;
+}
+
 .about-us-picture {
-    background: url('../files/us/ryan-thang.jpg') no-repeat center center;
+    background: url("../files/us/ryan-thang.jpg") no-repeat center center;
     color: #fff;
 }
 
+
+/* What we say */
+
+.article-hr {
+    width: 30%;
+    height: 5px;
+    background-color: #8619b1;
+}
+
+#what-we-say {
+    position: relative;
+}
+
+#what-we-say .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slide-show-wrapper,
+#what-we-say {
+    color: #fff;
+    background-color: transparent;
+}
+
+#what-we-say,
+.slide-show-wrapper {
+    height: 100vh;
+    padding: 0;
+}
+
+.slide-show-wrapper {
+    padding: 50px 0;
+}
+
+#what-we-say {
+    background: url("../files/1.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.quote-container {
+    position: relative;
+}
+
+.quote-container blockquote {
+    position: absolute;
+    background-color: transparent;
+    left: 0;
+    top: 0;
+    color: #fff;
+}
+
+.quote {
+    display: none;
+}
+
+
+/* About company */
+
 #about-company {
-    background-color: #dfdfdf;
+    height: 700px;
 }
