@@ -7,6 +7,10 @@
     .section-hr {
         width: 3%;
     }
+    /* About Us */
+    .arrows-wrraper {
+        margin-top: 190px;
+    }
 }
 
 
@@ -86,6 +90,9 @@
         height: 420px;
         padding: 15px 0;
     }
+    .quote-container {
+        padding-left: 100px;
+    }
 }
 
 
@@ -158,5 +165,8 @@
     .slide-show-wrapper {
         height: 420px;
         padding: 15px 100px;
+    }
+    .quote-container {
+        padding-left: 100px;
     }
 }

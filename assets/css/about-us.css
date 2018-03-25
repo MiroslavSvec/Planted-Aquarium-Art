@@ -36,39 +36,6 @@ h3 {
     background-color: #8619b1;
 }
 
-#what-we-say {
-    position: relative;
-}
-
-#what-we-say .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 100%;
-}
-
-.slide-show-wrapper,
-#what-we-say {
-    color: #fff;
-    background-color: transparent;
-}
-
-#what-we-say,
-.slide-show-wrapper {
-    height: 100vh;
-    padding: 0;
-}
-
-.slide-show-wrapper {
-    padding: 50px 10px;
-}
-
-#what-we-say {
-    background: url("../files/1.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .quote-container {
     position: relative;
 }
@@ -76,19 +43,23 @@ h3 {
 .quote-container blockquote {
     display: none;
     position: absolute;
-    background-color: transparent;
-    left: 0;
     top: 0;
-    color: #fff;
 }
 
 .arrows-wrraper {
     margin-top: 300px;
 }
 
-.arrows-wrraper a {
-    margin: 0 70px;
-    color: #5cb85c;
+.arrows-wrraper button {
+    opacity: 0.7;
+    margin: 0 40px;
+    color: #8619b1;
+    background: transparent;
+    border: none;
+}
+
+.arrows-wrraper button:hover {
+    opacity: 1;
 }
 
 
@@ -96,4 +67,8 @@ h3 {
 
 #about-company {
     height: 700px;
+}
+
+#about-company {
+    background-color: #dfdfdf;
 }
