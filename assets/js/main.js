@@ -25,23 +25,52 @@ $(document).ready(function() {
 	}
 });
 
-
 /* about-us.hmtl */
 
-/* Slide Show */ 
+/* Slide Show */
 
-function slideShow() {
-	$(".quote-container .quote:gt(0)").hide();
-	$(".quote-container>:first-child")
-		.fadeOut()
-		.next(".quote")
-		.fadeIn()
-		.end()
-		.appendTo(".quote-container");
-}
+$(document).ready(function() {
 
-$(document).ready(function() { /* this part hass been done by @robinz */
-	var func = setInterval(slideShow, 5000);
+	var func = setInterval(slideShow, 3000);
+	function slideShow() {
+		$(".quote-container .quote:gt(0)").hide();
+		$(".quote-container>:first-child")
+			.fadeOut()
+			.next(".quote")
+			.fadeIn()
+			.end()
+			.appendTo(".quote-container");
+	}
+
+	$("#next-button").click(function() {
+		clearInterval(func);
+		func = setInterval(slideShow, 1000);
+		$(".quote-container>:first-child")
+			.fadeOut()
+			.next(".quote")
+			.fadeIn()
+			.end()
+			.appendTo(".quote-container");
+		clearInterval(func);
+		func = setInterval(slideShow, 5000);
+	});
+
+	$("#previous-button").click(function() {
+		clearInterval(func);
+		func = setInterval(slideShow, 1000);
+			$(".quote-container>:first-child")
+				.fadeOut()
+				.appendTo(".quote-container");
+			$(".quote-container>:last-child")
+				.prev(".quote")
+				.fadeIn()
+				.appendTo(".quote-container");
+		clearInterval(func);
+		func = setInterval(slideShow, 5000);
+	});
+
+	/* this part hass been done by @robinz */
+
 	$(".quote-container").hover(
 		function() {
 			clearInterval(func);

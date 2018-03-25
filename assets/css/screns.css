@@ -35,7 +35,6 @@
     }
     /* About Us */
     #what-we-say .overlay {
-        height: 450px;
         padding: 15px 0;
     }
 }
@@ -81,7 +80,6 @@
     }
     #what-we-say,
     #what-we-say .overlay {
-        height: 450px;
         padding: 15px 0;
     }
     .slide-show-wrapper {
