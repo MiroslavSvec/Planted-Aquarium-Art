@@ -1,98 +1,99 @@
 /* Splah img */
 
 #about-splash-img {
-	height: 100vh;
-	padding: 0;
-	background: url("../files/us/us.jpg") no-repeat center;
-	background-attachment: scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    height: 100vh;
+    padding: 0;
+    background: url("../files/us/us.jpg") no-repeat center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h3 {
-	text-align: center;
+    text-align: center;
 }
+
 
 /* About Us */
 
 .slide-show-hr {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 .about-us-picture {
-	background: url("../files/us/ryan-thang.jpg") no-repeat center center;
-	color: #fff;
+    background: url("../files/us/ryan-thang.jpg") no-repeat center center;
+    color: #fff;
 }
+
 
 /* What we say */
 
 .article-hr {
-	width: 30%;
-	height: 5px;
-	background-color: #8619b1;
+    width: 30%;
+    height: 5px;
+    background-color: #8619b1;
 }
 
 #what-we-say {
-	position: relative;
+    position: relative;
 }
 
 #what-we-say .overlay {
-	background-color: rgba(0, 0, 0, 0.7);
-	height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
 }
 
 .slide-show-wrapper,
 #what-we-say {
-	color: #fff;
-	background-color: transparent;
+    color: #fff;
+    background-color: transparent;
 }
 
 #what-we-say,
 .slide-show-wrapper {
-	height: 100vh;
-	padding: 0;
+    height: 100vh;
+    padding: 0;
 }
 
 .slide-show-wrapper {
-	padding: 50px 10px;
+    padding: 50px 10px;
 }
 
 #what-we-say {
-	background: url("../files/1.jpg") no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    background: url("../files/1.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .quote-container {
-	position: relative;
+    position: relative;
 }
 
 .quote-container blockquote {
-	position: absolute;
-	background-color: transparent;
-	left: 0;
-	top: 0;
-	color: #fff;
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    left: 0;
+    top: 0;
+    color: #fff;
 }
 
-.quote {
-	display: none;
-}
 .arrows-wrraper {
-	margin-top: 300px;
+    margin-top: 300px;
 }
 
 .arrows-wrraper a {
-	margin: 0 70px;
-	color: #5cb85c;
+    margin: 0 70px;
+    color: #5cb85c;
 }
+
 
 /* About company */
 
 #about-company {
-	height: 700px;
+    height: 700px;
 }

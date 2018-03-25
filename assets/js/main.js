@@ -30,43 +30,41 @@ $(document).ready(function() {
 /* Slide Show */
 
 $(document).ready(function() {
+	
+	var func = setInterval(slideShow, 0.0001);
 
-	var func = setInterval(slideShow, 3000);
 	function slideShow() {
-		$(".quote-container .quote:gt(0)").hide();
+		$(".quote-container .quote:gt(0)").hide(); 
 		$(".quote-container>:first-child")
 			.fadeOut()
 			.next(".quote")
 			.fadeIn()
 			.end()
 			.appendTo(".quote-container");
+		clearInterval(func);
+		func = setInterval(slideShow, 5000);
 	}
 
 	$("#next-button").click(function() {
 		clearInterval(func);
-		func = setInterval(slideShow, 1000);
-		$(".quote-container>:first-child")
-			.fadeOut()
-			.next(".quote")
-			.fadeIn()
-			.end()
-			.appendTo(".quote-container");
-		clearInterval(func);
-		func = setInterval(slideShow, 5000);
+		func = setInterval(slideShow, 0.0001);
+		slideShow();
 	});
-
+	
 	$("#previous-button").click(function() {
 		clearInterval(func);
-		func = setInterval(slideShow, 1000);
-			$(".quote-container>:first-child")
-				.fadeOut()
-				.appendTo(".quote-container");
-			$(".quote-container>:last-child")
-				.prev(".quote")
-				.fadeIn()
-				.appendTo(".quote-container");
-		clearInterval(func);
-		func = setInterval(slideShow, 5000);
+		func = setInterval(slideShow, 0.0001);
+		$(".quote-container .quote:gt(0)").hide();
+		$(".quote-container>:first-child")
+			.fadeOut()
+			.appendTo(".quote-container");
+		$(".quote-container>:last-child")
+			.prev(".quote")
+			.fadeIn();
+		$(".quote-container .quote:gt(0)").hide();
+		$(".quote-container>:first-child")
+			.fadeOut()
+			.appendTo(".quote-container");
 	});
 
 	/* this part hass been done by @robinz */
