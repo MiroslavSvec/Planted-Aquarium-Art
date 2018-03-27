@@ -1,15 +1,25 @@
-/* Nav */
+/* Header / Nav */
 
 $(document).ready(function() {
 	if ($(window).width() <= 968) {
-		$("#header").click(function() {
+		$(".header").click(function() {
 			$("#sub-links>li>ol").slideToggle("section-nav");
 		});
 	} else {
-		$("#header").hover(function() {
+		$(".header").hover(function() {
 			$("#sub-links>li>ol").slideToggle("section-nav");
 		});
 	}
+});
+
+$(document).ready(function() {
+	$(document).scroll(function() {
+		if ($(document).scrollTop() >= 650) {
+			$(".header").addClass("dark-header");
+		} else {
+			$(".header").removeClass("dark-header");
+		}
+	});
 });
 
 /* Footer Social Links */
