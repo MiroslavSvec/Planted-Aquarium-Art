@@ -18,9 +18,6 @@ h3 {
 
 /* About Us */
 
-.slide-show-hr {
-    background-color: #fff;
-}
 
 .about-us-picture {
     background: url("../files/us/ryan-thang.jpg") no-repeat center center;
@@ -53,7 +50,8 @@ h3 {
 .arrows-wrraper button {
     opacity: 0.5;
     margin: 0 40px;
-    color: #000000;
+	color: #000000;
+	outline-color: transparent;
     background: transparent;
     border: none;
 }
