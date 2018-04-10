@@ -10,6 +10,25 @@ a:-webkit-any-link {
     color: #000000;
 }
 
+#alerts {
+    position: fixed;
+    width: 100%;
+    display: none;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #fff;
+}
+
+#alerts header {
+    padding: 15px;
+}
+
+#message-box {
+    font-size: 0.85em;
+}
+
 section {
     height: auto;
     padding: 75px 0;
@@ -38,7 +57,6 @@ h4 {
     background-color: #000000;
     border: 0;
 }
-
 
 /* Header / Nav */
 
@@ -155,7 +173,6 @@ nav.container-fluid ul {
     color: #fff;
 }
 
-
 /* Welcome Section */
 
 #slide-show {
@@ -231,7 +248,6 @@ nav.container-fluid ul {
     color: rgba(255, 255, 255, 0.6);
 }
 
-
 /* Moto Section */
 
 #our-moto #about {
@@ -296,7 +312,6 @@ nav.container-fluid ul {
     }
 }
 
-
 /* Our Work Section */
 
 #work {
@@ -337,7 +352,6 @@ nav.container-fluid ul {
     background-color: #5cb85c;
 }
 
-
 /* Get In Touch Section */
 
 #get-in-touch {
@@ -369,7 +383,6 @@ nav.container-fluid ul {
     border-color: #5cb85c;
 }
 
-
 /* Services Section */
 
 .services-notes {
@@ -385,7 +398,6 @@ nav.container-fluid ul {
     margin-top: 25px;
     margin-bottom: 25px;
 }
-
 
 /* About Us Section */
 
@@ -421,7 +433,6 @@ nav.container-fluid ul {
     padding-top: 25px;
 }
 
-
 /* Contact Us Section */
 
 .form-group input,
@@ -430,7 +441,7 @@ nav.container-fluid ul {
     min-height: 50px;
     padding: 10px;
     background-color: #e0dfdf;
-    border: 0;
+    border: 1px solid transparent;
 }
 
 #contact-details h5,
@@ -442,6 +453,9 @@ nav.container-fluid ul {
     background-color: #e0dfdf;
 }
 
+#contactForm h3 {
+    margin: 0 auto;
+}
 
 /* Footer */
 
@@ -476,7 +490,6 @@ nav.container-fluid ul {
 .secreet {
     padding-bottom: 20px;
 }
-
 
 /* Modals */
 
