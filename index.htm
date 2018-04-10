@@ -480,7 +480,7 @@
 
 					<div class="col-xs-12 col-sm-12 col-md-6">
 						<fieldset>
-							<form onsubmit="return validForm()" method="post" name="contactform" id="contactform" class="">
+							<form onsubmit="return validForm()" method="post" name="contactform" id="contactForm" class="">
 								<div class="form-group">
 									<input name="author" type="text" id="name" placeholder="Your Name" required>
 								</div>
@@ -488,9 +488,9 @@
 									<input name="email" type="email" id="userEmail" placeholder="Your E-mail" required>
 								</div>
 								<div class="form-group">
-									<textarea name="message" id="message" rows="5"></textarea>
+									<textarea name="message" id="message" rows="5" required></textarea>
 								</div>
-								<input type="submit" class="btn btn-default submit" id="submit" value="Send message" required>
+								<input type="submit" class="btn btn-default submit" id="submit" value="Send message">
 							</form>
 						</fieldset>
 					</div>
@@ -507,7 +507,8 @@
 		<div id="alerts" class="container-fluid">
 			<header class="row">
 				<div class="text-left">
-					<p><i class="fab fa-pagelines fa-lg" aria-hidden="true"></i> Planted Aquarium Art</p>
+					<p>
+						<i class="fab fa-pagelines fa-lg" aria-hidden="true"></i> Planted Aquarium Art</p>
 				</div>
 			</header>
 			<div class="row">
