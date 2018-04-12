@@ -27,7 +27,7 @@ $(document).ready(function() {
 function alerts_box_animation() {
 	$("#message-box").html(warningMessage);
 	$("#alerts").slideDown(500);
-	var y = setTimeout(slide, 2000);
+	setTimeout(slide, 3000);
 	function slide() {
 		$("#alerts").slideUp(1000);
 	}
@@ -47,7 +47,7 @@ function validForm(formValues) {
 
 		if (formValues[i].value == null || formValues[i].value == "") {
 			$(formValues[i]).addClass("red-border");
-			warningMessage = "PLease fill up the form...";
+			warningMessage = "Please fill up the form...";
 			alerts_box_animation(warningMessage);
 			return false;
 		}
@@ -55,7 +55,7 @@ function validForm(formValues) {
 
 	if (formValues.message.value.length <= 15) {
 		$(formValues.message).addClass("red-border");
-		warningMessage = "PLease fill up the form... <br> Your message needs to be longer then 15 characters.";
+		warningMessage = "Please fill up the form... <br> Your message needs to be longer then 15 characters.";
 		alerts_box_animation(warningMessage);
 		return false;
 	} else {
