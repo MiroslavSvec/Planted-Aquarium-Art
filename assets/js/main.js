@@ -61,22 +61,23 @@ function validForm(formValues) {
 	} else {
 		sendMail(formValues);
 	}
+
+	warningMessage = "Your message has been sent. <br> Thank you!";
+	$("#contactForm").trigger("reset");
+	alerts_box_animation(warningMessage);
+	return false;
 };
 
 function sendMail(formValues) {
 	
     emailjs.send("gmail", "test", {
-        "from_name": formValues.author.value,
-        "from_email": formValues.email.value,
+        "name": formValues.author.value,
+        "email": formValues.email.value,
         "message": formValues.message.value
     })
     .then(
         function(response) {
-			warningMessage = "Your message has been sent. <br> Thank you!";
-			$("#contactForm").trigger("reset");
-			alerts_box_animation(warningMessage);
-
-            console.log("SUCCESS", response); 
+			console.log("SUCCESS", response); 			            
         },
         function(error) { 
             console.log("ERROR", error);
@@ -152,40 +153,4 @@ $(document).ready(function() {
 		}
 	);
 });
-
-/* About Us page */
-
-
-	function googleMap() {
-		var map = new google.maps.Map(
-			document.getElementById("company-location-map"),
-			{
-				zoom: 3,
-				center: {
-					lat: 46.619261,
-					lng: -33.134766
-				}
-			}
-		);
-
-		var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-		var locations = [
-			{ lat: 40.785091, lng: -73.968285 },
-			{ lat: 41.084045, lng: -73.874245 },
-			{ lat: 40.754932, lng: -73.984016 }
-		];
-
-		var markers = locations.map(function(location, i) {
-			return new google.maps.Marker({
-				position: location,
-				label: labels[i % labels.length]
-			});
-		});
-
-		var markerCluster = new MarkerClusterer(map, markers, {
-			imagePath:
-				"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"
-		});
-	}
 
