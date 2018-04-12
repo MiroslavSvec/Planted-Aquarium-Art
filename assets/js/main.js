@@ -33,7 +33,7 @@ function alerts_box_animation() {
 	}
 }
 
-/* Form Validation */
+/* Form Functions */
 
 $(document).ready(function() {
 	$("#name, #userEmail, #message").click(function() {
@@ -41,44 +41,48 @@ $(document).ready(function() {
 	});
 });
 
-function validForm() {
+function validForm(formValues) {
 
-	var formColumn = [
-		{ element: "#name", value: $("#name").val() },
-		{ element: "#userEmail", value: $("#userEmail").val() },
-		{ element: "#message", value: $("#message").val() }
-	];
+	for (var i = 0; i < 3; i++) {
 
-	var v;
-	var formValue;
-	var element;
-
-	for (var i = 0; i < formColumn.length; i++) {
-		var key = Object.keys(formColumn)[i];
-		v = formColumn[key];
-		formValue = v.value;
-		element = v.element;
-
-		if (formValue == null || formValue == "") {
-			$(element).addClass("red-border");
+		if (formValues[i].value == null || formValues[i].value == "") {
+			$(formValues[i]).addClass("red-border");
 			warningMessage = "PLease fill up the form...";
 			alerts_box_animation(warningMessage);
 			return false;
-		};
-	};
+		}
+	}
 
-	if (formValue.length <= 15) {
-		$(element).addClass("red-border");
+	if (formValues.message.value.length <= 15) {
+		$(formValues.message).addClass("red-border");
 		warningMessage = "PLease fill up the form... <br> Your message needs to be longer then 15 characters.";
 		alerts_box_animation(warningMessage);
 		return false;
 	} else {
-		warningMessage = "Your message has been sent. <br> Thank you!";
-		$("#contactForm").trigger("reset");
-		alerts_box_animation(warningMessage);
+		sendMail(formValues);
+	}
+};
 
-		return false; /* For testing */
-	};
+function sendMail(formValues) {
+	
+    emailjs.send("gmail", "test", {
+        "from_name": formValues.author.value,
+        "from_email": formValues.email.value,
+        "message": formValues.message.value
+    })
+    .then(
+        function(response) {
+			warningMessage = "Your message has been sent. <br> Thank you!";
+			$("#contactForm").trigger("reset");
+			alerts_box_animation(warningMessage);
+
+            console.log("SUCCESS", response); 
+        },
+        function(error) { 
+            console.log("ERROR", error);
+        }
+    );
+    return false; 
 };
 
 /* Footer Social Links */
@@ -91,7 +95,7 @@ $(document).ready(function() {
 			$(".fa-linkedin-in").toggleClass("linkedin");
 			$(".fa-instagram").toggleClass("instagram");
 		});
-	}
+	};
 });
 
 /* about-us.hmtl */
@@ -111,7 +115,7 @@ $(document).ready(function() {
 			.appendTo(".quote-container");
 		clearInterval(func);
 		func = setInterval(slideShow, 5000);
-	}
+	};
 
 	$("#next-button").click(function() {
 		clearInterval(func);
@@ -148,3 +152,40 @@ $(document).ready(function() {
 		}
 	);
 });
+
+/* About Us page */
+
+
+	function googleMap() {
+		var map = new google.maps.Map(
+			document.getElementById("company-location-map"),
+			{
+				zoom: 3,
+				center: {
+					lat: 46.619261,
+					lng: -33.134766
+				}
+			}
+		);
+
+		var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+		var locations = [
+			{ lat: 40.785091, lng: -73.968285 },
+			{ lat: 41.084045, lng: -73.874245 },
+			{ lat: 40.754932, lng: -73.984016 }
+		];
+
+		var markers = locations.map(function(location, i) {
+			return new google.maps.Marker({
+				position: location,
+				label: labels[i % labels.length]
+			});
+		});
+
+		var markerCluster = new MarkerClusterer(map, markers, {
+			imagePath:
+				"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"
+		});
+	}
+

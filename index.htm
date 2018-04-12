@@ -24,6 +24,13 @@
 	 crossorigin="anonymous"></script>
 	<script src="assets/css/bs/js/bootstrap.js"></script>
 	<script src="assets/js/main.js"></script>
+	<!-- emailjs.com -->
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init("user_MqY16F4SD2t4zKO8ixOgp");
+		})();
+	</script>
 
 
 	<title>Planted Aquarium Art</title>
@@ -480,7 +487,7 @@
 
 					<div class="col-xs-12 col-sm-12 col-md-6">
 						<fieldset>
-							<form onsubmit="return validForm()" method="post" name="contactform" id="contactForm" class="">
+							<form onsubmit="return validForm(this);" method="post" name="contactform" id="contactForm" class="">
 								<div class="form-group">
 									<input name="author" type="text" id="name" placeholder="Your Name" required>
 								</div>
