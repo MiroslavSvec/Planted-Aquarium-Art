@@ -64,10 +64,14 @@ h3 {
 
 /* About company */
 
-#about-company {
-    height: 700px;
-}
+
 
 #about-company {
     background-color: #dfdfdf;
+}
+
+#map {
+	border: 1px solid white;
+	border-top-right-radius: 5px;
+	height: 300px;
 }

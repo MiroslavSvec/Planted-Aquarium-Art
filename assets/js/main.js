@@ -27,10 +27,11 @@ $(document).ready(function() {
 function alerts_box_animation() {
 	$("#message-box").html(warningMessage);
 	$("#alerts").slideDown(500);
-	setTimeout(slide, 3000);
-	function slide() {
+	
+	setTimeout(function() {
 		$("#alerts").slideUp(1000);
-	}
+	}, 5000);
+	
 }
 
 /* Form Functions */
@@ -55,16 +56,13 @@ function validForm(formValues) {
 
 	if (formValues.message.value.length <= 15) {
 		$(formValues.message).addClass("red-border");
-		warningMessage = "Please fill up the form... <br> Your message needs to be longer then 15 characters.";
+		warningMessage = "Your message must be longer then 15 characters.";
 		alerts_box_animation(warningMessage);
 		return false;
 	} else {
 		sendMail(formValues);
-	}
+	}	
 
-	warningMessage = "Your message has been sent. <br> Thank you!";
-	$("#contactForm").trigger("reset");
-	alerts_box_animation(warningMessage);
 	return false;
 };
 
@@ -82,7 +80,11 @@ function sendMail(formValues) {
         function(error) { 
             console.log("ERROR", error);
         }
-    );
+	);
+	
+	warningMessage = "Your message has been sent. <br> Thank you!";
+	$("#contactForm").trigger("reset");
+	alerts_box_animation(warningMessage);
     return false; 
 };
 
@@ -153,4 +155,20 @@ $(document).ready(function() {
 		}
 	);
 });
+
+
+
+function initMap() {
+	var companyLocation = { lat: 52.0495218, lng: -0.8240154 };
+	var map = new google.maps.Map(document.getElementById("map"), {
+		zoom: 15,
+		center: companyLocation
+	});
+	var marker = new google.maps.Marker({
+		position: companyLocation,
+		map: map
+	});
+}
+
+	
 
