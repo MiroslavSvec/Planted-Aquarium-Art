@@ -6,15 +6,20 @@
     }
     .section-hr {
         width: 3%;
-    }
-    /* About Us */
-    .arrows-wrraper {
-        margin-top: 190px;
-    }
+	}	
+	.arrows-wapper {
+		margin-top: 190px;
+	}
 }
 
 
 /* sm Screens */
+@media (max-width: 768px) {
+	#home,
+	#gallery {
+		border-right: 0;
+	}
+}
 
 @media (min-width: 768px) {
     .title {

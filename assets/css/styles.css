@@ -103,6 +103,10 @@ h4 {
     }
 }
 
+.white-border-right {
+	border-right: 1px solid #ffffff;
+}
+
 .header nav {
     background-color: transparent;
     border: 0;
@@ -150,16 +154,13 @@ h4 {
     opacity: 0.75;
 }
 
-.section-nav {
-    display: none;
-}
-
 .section-nav li a {
     float: right;
 }
 
 #sub-links li ol {
-    border-right: 1px solid #fff;
+	margin: 0;
+	border-right: 1px solid #fff;
 }
 
 nav.container-fluid ul {
