@@ -16,7 +16,7 @@ Preparing the project for CI
 
 - Created new branch to separate the project
 - Added `.gitignore`
-  - Navbar
-    - Removed JS :hover function as sub-nav now visible all time
-    - Removed links to unfinished pages
+- Navbar
+	- Removed JS :hover function as sub-nav now visible all time
+	- Removed links to unfinished pages
 - Removed unnecessary html and css files
