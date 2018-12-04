@@ -5,4 +5,4 @@
 
 #### Up to date version
 
-Second page marked as (2) in git
+This is the original branch before preparing the project for submitting
