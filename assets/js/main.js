@@ -42,7 +42,7 @@ function validForm(formValues) {
 		}
 	}
 
-	if (formValues.message.value.length <= 15) {
+	if (formValues.message.value.split().length <= 15) {
 		$(formValues.message).addClass("red-border");
 		warningMessage = "Your message must be longer then 15 characters.";
 		alerts_box_animation(warningMessage);

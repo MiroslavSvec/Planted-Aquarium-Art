@@ -14,9 +14,9 @@ I created full business plan base on existing companies.
 The company:
 
 - We require a place for our potential customers to:
-	- see what do we offer
-	- show our work
-	- be able to contact us and connect with us via contact form or social links
+  - see what do we offer
+  - show our work
+  - be able to contact us and connect with us via contact form or social links
 - The landing page should be entertaining and not overwhelming with lots of unnecessary info (less is more)
 
 The user:
@@ -41,18 +41,18 @@ However, there are some which needs (will be) added later.
 
 - Our Work - allows users to see few examples of our work as well as visit our gallery to see even more examples of our work.
 - Our Servises - allows users to get idea about services we offer:
-	- free advice
-	- design of the planted aquarium
-	- instalation of the equipment as well as full set-up of the planted aquarium based on the design
-	- caring for the the plants and keep the aquarium looks good at any time
-	- also added “freebees” to attract more potentional customers
+  - free advice
+  - design of the planted aquarium
+  - instalation of the equipment as well as full set-up of the planted aquarium based on the design
+  - caring for the the plants and keep the aquarium looks good at any time
+  - also added “freebees” to attract more potentional customers
   
 - About Us - allows users to see who we are as well as few feedbacks from existing customers
 - Contact Us - allows users to conatact us via:
-	- email
-	- phone number
-	- contact form
-	- socail links (footer)
+  - email
+  - phone number
+  - contact form
+  - socail links (footer)
 
 #### [gallery.html](https://miroslavsvec.github.io/Planted-Aquarium-Art/gallery.html)
 
@@ -69,16 +69,45 @@ For additional information about “Features left to implement” please see the
 ## Technologies Used
 
 - [Bootstrap v3.3.7](https://getbootstrap.com/docs/3.3/)
-    - The project uses **Bootstrap** to speed up the development.
+  - The project uses **Bootstrap** to speed up the development.
 - [Font Awesome v5.0.6](https://fontawesome.com/)
-    - The project uses **Font Awesome** for icons.
+  - The project uses **Font Awesome** for icons.
 - [JQuery v3.2.1](https://blog.jquery.com/2017/03/20/jquery-3-2-1-now-available/)
-    - The project uses **JQuery** for better user experiences as well as contact form validation.
+  - The project uses **JQuery** for better user experiences as well as contact form validation.
 - [Email JS](http://www.emailjs.com/)
-	- The project uses **Email JS** to submit real eamil via contact form
+  - The project uses **Email JS** to submit real eamil via contact form
 
 
 ## Testing
+
+The project has been tested on commonly used devices and browsers such as:
+
+- Desktop PC
+  - Chrome 70 (fully compatible)
+  - Opera 57 (fully compatible)
+  - Firefox 63 (minor CSS compatibility issue with links)
+  - Internet Explorer 11 (minor CSS compatibility issue with links)
+  - Microsoft Edge 42 (minor CSS compatibility issue with links)
+
+- Tablets
+  - Nexus 7 - Chrome 69 (fully compatible)
+  - ipad air - Safari (fully compatible)
+
+- Mobiles
+  - Samsung Galaxy - Chrome 69/70 (fully compatible)
+  - iphone - Safari (fixed)
+
+Found major issue with `background-attachment: fixed;` on mobile devices.  The splash images was blury and did not scale properly.  
+
+Solution - `background-attachment: scroll;`.
+
+- Contact form:
+  - added basic form validation via JS to check for empty feilds and minimum length of the message
+  - also added `split()` function to remove all empty spaces and prevent the user to sumbit form with empty spaces
+
+Additional to above both pages has been validated via [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+
+## Deployment
 
 
 
