@@ -107,12 +107,20 @@ Solution - `background-attachment: scroll;`.
 
 Additional to above both pages has been validated via [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
+Unfortunately, JS's has been tested manually.
+
 ## Deployment
 
 The project has been deployed to GitHUb Pages  - [Planted Aquarium Art](http://127.0.0.1:5500/index.htm)
 
 There is one additional branch – [old master](https://github.com/MiroslavSvec/Planted-Aquarium-Art/tree/old-master) which points to stage of the project before making adjustments for final submission. This branch will be merged to the current master branch later.
 
+## What could be done better?
+
+- my `nav` is wrapped in `header` and this wrong use of schematic HTML as it is just a  navbar and not a header
+- some of the images are called `1.jpg` which says nothing about the image
+- better file structure
+- no automated testing for JS
 
 ## Credits
 
