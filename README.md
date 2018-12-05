@@ -91,11 +91,11 @@ The project has been tested on commonly used devices and browsers such as:
 
 - Tablets
   - Nexus 7 - Chrome 69 (fully compatible)
-  - ipad air - Safari (fully compatible)
+  - iPad air - Safari (fully compatible)
 
 - Mobiles
   - Samsung Galaxy - Chrome 69/70 (fully compatible)
-  - iphone - Safari (fixed)
+  - iPhone - Safari (fixed)
 
 Found major issue with `background-attachment: fixed;` on mobile devices.  The splash images was blury and did not scale properly.  
 
@@ -109,5 +109,26 @@ Additional to above both pages has been validated via [W3C Markup Validation Ser
 
 ## Deployment
 
+The project has been deployed to GitHUb Pages  - [Planted Aquarium Art](http://127.0.0.1:5500/index.htm)
+
+There is one additional branch – [old master](https://github.com/MiroslavSvec/Planted-Aquarium-Art/tree/old-master) which points to stage of the project before making adjustments for final submission. This branch will be merged to the current master branch later.
 
 
+## Credits
+
+**Special thanks to:**
+
+- everyone for finding few minutes to test the project!  
+
+  All of you gave me constructive feedback which made the project better 😊
+
+- Karol Maleska owner of [CO2 Art](https://www.co2art.co.uk/) as he allowed me to use pictures and content from [Aquascape Awards](https://www.aquascapeawards.com/) for this project.
+- To all of the acuascapers who created such a beautiful aquariums.
+
+### Media
+
+- all photos on this website has been borrowed from [Aquascape Awards](https://www.aquascapeawards.com/).
+
+### Content of [gallery.html](https://miroslavsvec.github.io/Planted-Aquarium-Art/gallery.html)
+
+- the content on this page is taken from [Aquascape Awards](https://www.aquascapeawards.com/).

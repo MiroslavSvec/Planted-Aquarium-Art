@@ -21,6 +21,10 @@ h5 {
 	margin-bottom: 20px;
 }
 
+.pb-35px {
+	padding-bottom: 35px !important;
+}
+
 /* Splah img */
 
 #gallery-splash-img {

@@ -42,10 +42,6 @@
         width: 3%;
         margin-bottom: 100px;
     }
-    /* About Us */
-    #what-we-say .overlay {
-        padding: 15px 0;
-    }
 }
 
 
@@ -83,28 +79,14 @@
         padding: 10px;
         margin-bottom: 30px;
     }
-    /* about-us.html */
-    .article-hr {
-        width: 40%;
-    }
-    #what-we-say,
-    #what-we-say .overlay {
-        padding: 15px 0;
-    }
-    .slide-show-wrapper {
-        height: 420px;
-        padding: 15px 0;
-    }
-    .quote-container {
-        padding-left: 100px;
-    }
 }
 
 
 /* xl Screens */
 
 @media (min-width: 1400px) {
-    #slide-show {
+	#slide-show,
+	#gallery-splash-img {
         background-attachment: fixed;
         display: flex;
         justify-content: center;
@@ -157,21 +139,5 @@
         box-shadow: 0 15px 10px #dfdfdf;
         padding: 10px;
         margin-bottom: 30px;
-    }
-    /* about-us.html */
-    .article-hr {
-        width: 40%;
-    }
-    #what-we-say,
-    #what-we-say .overlay {
-        height: 450px;
-        padding: 15px 0;
-    }
-    .slide-show-wrapper {
-        height: 420px;
-        padding: 15px 100px;
-    }
-    .quote-container {
-        padding-left: 100px;
     }
 }
