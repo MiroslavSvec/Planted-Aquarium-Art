@@ -37,7 +37,7 @@ However, there are some which needs (will be) added later.
 
 ### Existing Features
 
-#### [index.html](https://miroslavsvec.github.io/Planted-Aquarium-Art/index.htm)
+#### [index.htmll](https://miroslavsvec.github.io/Planted-Aquarium-Art/index.html)
 
 - Our Work - allows users to see few examples of our work as well as visit our gallery to see even more examples of our work.
 - Our Servises - allows users to get idea about services we offer:
@@ -111,17 +111,15 @@ Unfortunately, JS's has been tested manually.
 
 ## Deployment
 
-The project has been deployed to GitHUb Pages  - [Planted Aquarium Art](http://127.0.0.1:5500/index.htm)
+The project has been deployed to GitHUb Pages  - [Planted Aquarium Art](https://miroslavsvec.github.io/Planted-Aquarium-Art/index.html)
 
 There is one additional branch – [old master](https://github.com/MiroslavSvec/Planted-Aquarium-Art/tree/old-master) which points to stage of the project before making adjustments for final submission. This branch will be merged to the current master branch later.
 
 ## What could be done better?
 
-- my `nav` is wrapped in `header` and this wrong use of schematic HTML as it is just a  navbar and not a header
 - some of the images are called `1.jpg` which says nothing about the image
 - better file structure
-- no automated testing for JS
-
+  
 ## Credits
 
 **Special thanks to:**
